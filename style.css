@@ -1,0 +1,28 @@
+.btn:focus,.btn:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+.showcase {
+    height: 325px;
+}
+
+.showcase .container h1 {
+    font-size: 60px;
+}
+
+.sponsors img {    
+    filter: grayscale(100%);   
+}
+
+/* tablets */
+@media(max-width: 768px) {
+
+}
+
+/* mobile */
+@media(max-width: 500px) {
+    .showcase .container h1 {
+        font-size: 50px;
+    }
+}
