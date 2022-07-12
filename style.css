@@ -15,6 +15,10 @@
     filter: grayscale(100%);   
 }
 
+.pricing h1 {
+    font-size: 50px;
+}
+
 .box {
     transition: .3s;
     cursor: pointer;
@@ -38,5 +42,9 @@
 
     .pricing .changesize {
         width: 400px;
+    }
+
+    .pricing h1 {
+        font-size: 40px;
     }
 }
